@@ -1,0 +1,21 @@
+{
+  "name": "wiserair",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Sarin Kuruvilla <i@sarin.us>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "wow": "wowjs#~1.1.2"
+  }
+}
