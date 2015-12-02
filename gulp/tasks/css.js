@@ -14,6 +14,8 @@ gulp.task('css', function () {
         // Report compile erros
         .on('error', util.handleErros)
         .pipe(debug({title: 'unicorn:'}))
+
+        .pipe(concat('app.css'))
         // Specify the output destination
         .pipe(gulp.dest('./dist/css'))
 
