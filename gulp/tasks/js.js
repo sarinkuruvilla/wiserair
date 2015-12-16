@@ -22,7 +22,9 @@ gulp.task('js', function() {
     gulp.src([
             './bower_components/jquery/jquery.js',
             './bower_components/wow/dist/wow.js',
-            './bower_components/onepage-scroll/jquery.onepage-scroll.js'
+            './bower_components/onepage-scroll/jquery.onepage-scroll.js',
+            './bower_components/SiriWaveJS/siriwave.js',
+            './node_modules/highcharts/js/highcharts.js'
         ])
         .pipe(concat('vendor.js'))
         // .pipe(uglify())

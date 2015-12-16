@@ -33,6 +33,7 @@
     "animatify": "^1.0.0",
     "bootstrap": "^3.3.5",
     "browserify": "^6.1.0",
+    "highcharts": "^4.2.0",
     "jquery": "^2.1.4",
     "webfontloader": "^1.6.10"
   }

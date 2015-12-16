@@ -32,6 +32,24 @@ p.subheading2 {
   color: #000000;
 }
 
+h1 {
+  font-size: 40px;
+  color: #000000;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 300;
+}
+
+a,
+a:active,
+a:hover {
+  color: #00953a;
+}
+
+#chart-container {
+  margin-left: -20px;
+}
+
 /* NAVIGATION */
 
 nav .wiser-active {
@@ -155,6 +173,95 @@ nav .navbar-nav > li > a.btn:hover {
 #wiser_choice_thermostat {
   margin-top: 120px;
   margin-right: -50px;
+}
+
+#bells {
+  padding-top: 100px;
+  height: 726px;
+}
+
+#bells_graphic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+  width: 80%;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+#bells_graphic img {
+  max-width: 90%;
+}
+
+#smart {
+  background: #18983F;
+  min-height: 325px;
+  /*     height:325px; */
+  padding-top: 70px;
+  color: #fff;
+}
+
+#smart p.subheading1 {
+  color: #fff;
+}
+
+#smart p.subheading2 {
+  color: #fff;
+}
+
+#smart p.subheading2 a {
+  font-size: 80% !important;
+}
+
+#smart a {
+  color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#smart a:hover,
+a:active {
+  color: #fff;
+}
+
+#smart a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+#smart img {
+  width: 120%;
+  margin-left: -33px;
+  padding-bottom: 15px;
+}
+
+#clear-info {
+  min-height: 720px;
+  height: 720px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+#clear-info img {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#specifications {
+  background: #ECECEC;
+  min-height: 720px;
+  height: 720px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+#specifications img {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* RESPONSIVE */
@@ -348,6 +455,16 @@ nav .navbar-nav > li > a.btn:hover {
   .subheading2 {
     text-align: center !important;
     width: 100% !important;
+  }
+
+  #bells_graphic {
+    max-height: 300px;
+    width: 95%;
+  }
+
+  #bells_graphic img {
+    max-width: 120%;
+    margin-left: -33px;
   }
 }
 
@@ -574,6 +691,21 @@ nav .navbar-nav > li > a.btn:hover {
   .subheading2 {
     text-align: center !important;
     width: 100% !important;
+  }
+
+  #bells {
+    height: 100% !important;
+    overflow: visible !important;
+  }
+
+  #bells_graphic {
+    max-height: 250px;
+    width: 95%;
+  }
+
+  #bells_graphic img {
+    max-width: 120%;
+    margin-left: -33px;
   }
 }
 body,

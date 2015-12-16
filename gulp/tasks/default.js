@@ -7,6 +7,9 @@ gulp.task('default', ['html', 'sync', 'css', 'images'], function () {
 });
 
 gulp.task('html', function () {
-    gulp.src('./index.html')
+    gulp.src([
+      './index.html',
+      './efficiency.html'
+      ])
     .pipe(gulp.dest('./dist/'));
 });
